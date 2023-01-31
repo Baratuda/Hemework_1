@@ -16,7 +16,7 @@ int thirdNumber = int.Parse(Console.ReadLine());
 
 int maxNumber = firstNumber;
 
-if(firstNumber<=secondNumber){
+if(maxNumber<=secondNumber){
     maxNumber = secondNumber;
 } 
 if(maxNumber<=thirdNumber){
